@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-
-
-<root>
-    
-</root>
+<extension type="module" version="3.1" client="site" method="upgrade">
+    <name>mod_facebookgate</name>
+    <author>Csányi Dávid</author>
+    <date>2016 december</date>
+    <email>csanyidav@gmail.com</email>
+    <version>1.0</version>
+    <description>Kaput nyit a kedvenc publikus szerverezed facebook oldalához!</description>
+</extension>
