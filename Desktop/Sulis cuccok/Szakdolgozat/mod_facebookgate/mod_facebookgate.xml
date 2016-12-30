@@ -6,4 +6,16 @@
     <email>csanyidav@gmail.com</email>
     <version>1.0</version>
     <description>Kaput nyit a kedvenc publikus szerverezed facebook oldalához!</description>
+    
+    <fieldset name="advanced">
+        <field name="cimke" 
+               type="modulelayout" 
+               label="JFIELD_ALT_LAYOUT_LABEL" 
+               description="A mod_facebookgate második get metódusának az értéke ez a mező!" />
+        <field name="modulosztály"
+               type="text"
+               label="Modul Osztály Utótag"
+               description="A mod_facebookgate első get metódusának az értéke ez a mező!" />
+    </fieldset>
+    
 </extension>
