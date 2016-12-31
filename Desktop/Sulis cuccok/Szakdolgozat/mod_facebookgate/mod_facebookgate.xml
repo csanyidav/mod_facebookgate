@@ -13,18 +13,18 @@
             <field name="facebook_név" 
                    type="text" 
                    default="MNL Heves Megyei Levéltára" 
-                   label="Facebook Page Name" 
+                   label="Megfigyelt oldal neve" 
                    description="A default.php fájl facebooknév nevű változójának az értéke!"/>
             <field name="megtekintheto_url" 
                    type="url" 
                    default="https://www.facebook.com/pg/MNL-Heves-Megyei-Lev%C3%A9lt%C3%A1ra-701548916624857" 
-                   label="Facebook Page URL" 
+                   label="A megtekintni kívánt oldal URL címe" 
                    description="A default.php fájl url nevű változójának az értéke!"/>
             <field name="valaszthato_infok" 
                    type="list"
                    class="btn-group" 
                    default="timeline" 
-                   label="Tabs" 
+                   label="Mit szeretnél látni?" 
                    description="A default.php fájl valaszto nevű változójának az értéke!
                                 Választógomb az idővonal és az események között!">
                 <option value="timeline">Idovonal</option>
@@ -33,18 +33,18 @@
             <field name="kontener_sz" 
                    type="text" 
                    default="350" 
-                   label="Facebook Page Width" 
+                   label="Konténer nélküli oldalszélesség" 
                    description="A default.php fájl szelesseg nevű változójának az értéke!"/>
             <field name="kontener_m" 
                    type="text" 
                    default="500" 
-                   label="Facebook Page Height" 
+                   label="Konténer nélküli oldalmagasság" 
                    description="A default.php fájl magasság nevű változójának az értéke!"/>
             <field name="kontener_meret" 
                    type="radio"
                    class="btn-group" 
                    default="true" 
-                   label="Adapt Container Width" 
+                   label="Kéri a konténert?" 
                    description="A default.php fájl kontener nevű változójának az értéke!">
                 <option value="true">Igen</option>
                 <option value="false">Nem</option>
@@ -57,7 +57,7 @@
                    description="A mod_facebookgate második get metódusának az értéke ez a mező!" />
             <field name="modulosztály"
                    type="text"
-                   label="Modul Class Suffix"
+                   label="Modulosztály"
                    description="A mod_facebookgate első get metódusának az értéke ez a mező!" />
         </fieldset>
         
