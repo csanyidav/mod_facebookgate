@@ -53,14 +53,13 @@
         <fieldset name="advanced">
             <field name="cimke" 
                    type="modulelayout" 
-                   label="JFIELD_ALT_LAYOUT_LABEL" 
-                   description="A mod_facebookgate második get metódusának az értéke ez a mező!" />
+                   label="Címke" 
+                   description="A mod_facebookgate második get metódusának az értéke ez a mező! Alapértelmezetten 'default' értékű!" />
             <field name="modulosztály"
                    type="text"
                    label="Modulosztály"
                    description="A mod_facebookgate első get metódusának az értéke ez a mező!" />
         </fieldset>
-        
     </fields>
     </config>
 </extension>
