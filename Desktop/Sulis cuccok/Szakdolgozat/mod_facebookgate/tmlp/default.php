@@ -11,5 +11,11 @@ $kontener= $parameter ->get('kontener_meret');
 ?>
 
 <div class="mod_facebookgate <?php echo $modulosztály;?>">
-
+    <div class="fb-page" 
+         data-href="<?php echo $url;?>" 
+         data-tabs="<?php echo $valaszto;?>"
+         data-width="<?php echo $szelesseg;?>"
+         data-height="<?php echo $magasság;?>"
+         data-adopt-container-width="<?php echo $kontener;?>">
+    </div>
 </div>
