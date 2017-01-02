@@ -19,3 +19,9 @@ $kontener= $parameter ->get('oroklott_kontener_szelesseg');
          data-adopt-container-width="<?php echo $kontener;?>">
     </div>
 </div>
+<script>
+    (function(dok)
+    {
+        // A függvény törzse!
+    }(dokumentum));
+</script>
