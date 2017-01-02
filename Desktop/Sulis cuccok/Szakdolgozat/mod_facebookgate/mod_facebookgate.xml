@@ -40,7 +40,7 @@
                    default="500" 
                    label="Konténer nélküli oldalmagasság" 
                    description="A default.php fájl magasság nevű változójának az értéke!"/>
-            <field name="kontener_meret" 
+            <field name="oroklott_kontener_szelesseg" 
                    type="radio"
                    class="btn-group" 
                    default="true" 

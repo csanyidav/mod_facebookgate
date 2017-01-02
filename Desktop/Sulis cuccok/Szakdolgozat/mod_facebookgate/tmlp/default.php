@@ -7,7 +7,7 @@ $url=$parameter ->get('megtekintheto_url');
 $valaszto= $parameter ->get('valaszhato_infok');
 $szelesseg= $parameter ->get('kontener_sz');
 $magasság= $parameter ->get('kontener_m');
-$kontener= $parameter ->get('kontener_meret');
+$kontener= $parameter ->get('oroklott_kontener_szelesseg');
 ?>
 
 <div class="mod_facebookgate <?php echo $modulosztály;?>">
