@@ -1,7 +1,7 @@
 <?php
 
 defined ('_JEXEC') or die;
-$dokumentum=JFactory::getDocument();
+$document=JFactory::getDocument();
 $facebooknév=$params ->get('facebook_név');
 $url=$params ->get('megtekintheto_url');
 $valaszto= $params ->get('valaszhato_infok');
@@ -22,9 +22,9 @@ $kontener= $params ->get('oroklott_kontener_szelesseg');
 <script>
     (function(dok)
     { var valtozo, valtozoface= dok.getElementsByTagName("script") [0];
-      if (dok.getElementById("facebook-jssdk")) return;
-      valtozo= dok.createElement("script"); valtozo.id="facebook-jssdk";
+      if (dok.getElementById("facebookid")) return;
+      valtozo= dok.createElement("script"); valtozo.id="facebookid";
       valtozo.src= "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.5&appId=262562957268319";
       valtozoface.parentNode.insertBefore(valtozo,valtozoface);
-    }(dokumentum));
+    }(document));
 </script>
