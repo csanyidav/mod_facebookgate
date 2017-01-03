@@ -21,7 +21,10 @@ $kontener= $parameter ->get('oroklott_kontener_szelesseg');
 </div>
 <script>
     (function(dok)
-    {
-        // A függvény törzse!
+    { var valtozo, valtozoface= dok.getElementsByTagName("script") [0];
+      if (dok.getElementsByTagName("facebook-jssdk")) return;
+      valtozo= dok.createElement("script"); valtozo.id="facebook-jssdk";
+      valtozo.src= "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.5&appId=262562957268319";
+      valtozoface.parentNode.insertBefore(valtozo,valtozoface);
     }(dokumentum));
 </script>

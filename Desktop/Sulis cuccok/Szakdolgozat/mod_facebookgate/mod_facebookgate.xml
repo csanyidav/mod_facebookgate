@@ -6,7 +6,12 @@
     <email>csanyidav@gmail.com</email>
     <version>1.0</version>
     <description>Kaput nyit a kedvenc publikus szerverezed facebook oldalához!</description>
-    
+    <files>
+        <filename module="mod_facebookgate">mod_facebookgate.php</filename>
+        <folder>tmpl</folder>
+        <filename>index.html</filename>
+        <filename>mod_facebookgate.xml</filename>
+    </files>
     <config>
     <fields name="parameter">
         <fieldset name="basic">
