@@ -25,7 +25,7 @@
                    default="https://www.facebook.com/pg/MNL-Heves-Megyei-Lev%C3%A9lt%C3%A1ra-701548916624857" 
                    label="A megtekintni kívánt oldal URL címe" 
                    description="A default.php fájl url nevű változójának az értéke!"/>
-            <field name="valaszthato_infok" 
+            <field name="valasztolista" 
                    type="list"
                    class="btn-group" 
                    default="timeline" 

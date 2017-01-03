@@ -4,7 +4,7 @@ defined ('_JEXEC') or die;
 $document=JFactory::getDocument();
 $facebooknév=$params ->get('facebook_név');
 $url=$params ->get('megtekintheto_url');
-$valaszto= $params ->get('valaszhato_infok');
+$valaszto= $params ->get('valasztolista');
 $szelesseg= $params ->get('kontener_sz');
 $magasság= $params ->get('kontener_m');
 $kontener= $params ->get('oroklott_kontener_szelesseg');
