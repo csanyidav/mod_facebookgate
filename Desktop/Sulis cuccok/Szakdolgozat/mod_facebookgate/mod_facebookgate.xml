@@ -31,7 +31,7 @@
                    default="timeline" 
                    label="Mit szeretnél látni?" 
                    description="A default.php fájl valaszto nevű változójának az értéke!
-                                Választógomb az idővonal és az események között!">
+                                Választógomb az idővonal, az események, vagy az üzenetek között!">
                 <option value="timeline">Idovonal</option>
                 <option value="events">Események</option>
                 <option value="messages">Üzenetek</option>
