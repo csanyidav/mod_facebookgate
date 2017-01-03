@@ -13,7 +13,7 @@
         <filename>mod_facebookgate.xml</filename>
     </files>
     <config>
-    <fields name="parameter">
+    <fields name="params">
         <fieldset name="basic">
             <field name="facebook_név" 
                    type="text" 
@@ -34,6 +34,7 @@
                                 Választógomb az idővonal és az események között!">
                 <option value="timeline">Idovonal</option>
                 <option value="events">Események</option>
+                <option value="messages">Üzenetek</option>
             </field>
             <field name="kontener_sz" 
                    type="text" 
